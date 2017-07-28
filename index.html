@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>friendsbook</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- own css -->
+    <link href="own.css" rel="stylesheet">
+
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+
+        <header>
+      	
+			<nav class="navbar navbar-default" id="header">
+
+				<div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+
+				        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+					        <span class="sr-only">Toggle navigation</span>
+
+					        <span class="icon-bar"></span>
+
+					        <span class="icon-bar"></span>
+
+					        <span class="icon-bar"></span>
+
+				        </button>
+
+				    	<a class="navbar-brand white-text" href="#" >
+
+					      	<div class="flogo">
+
+					      		<img src="logo/fb.jpg" height="25px">
+
+					      	</div>
+
+
+				    </div>
+
+				    
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<form class="navbar-form navbar-left">
+
+				        	<div class="form-group">
+
+				          		<input type="text" class="form-control" placeholder="Search" >
+
+				        	</div>
+
+				        	<button type="submit" class="btn btn-default search" ><span class="  glyphicon glyphicon-search" aria-hidden="true"></button>
+
+				        </form>
+
+				        <ul class="nav navbar-nav navbar-right">
+
+							<class=" nav navbar-nav navbar-right">
+
+						    <li><a href="#" class="name">Tanish Kalra </a></li>
+
+						    <li><a href="#"><span class="  glyphicon glyphicon-home" aria-hidden="true"></a></li>
+
+						    <li><a href="#"><span class="  glyphicon glyphicon-envelope" aria-hidden="true"></a></li>
+
+						    <li><a href="#"><span class="  glyphicon glyphicon-globe" aria-hidden="true"></a></li>
+
+						    <li>
+
+							  	<div class="dropdown">
+
+								    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								      Account Setting
+
+								    	<span class="caret"></span>
+
+								    </button>
+
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+
+									    <li><a href="#">Change Password</a></li>
+
+									    <li><a href="#">Manage Block List</a></li>
+
+									    <li role="separator" class="divider"></li>
+
+									    <li><a href="#">Logout</a></li>
+
+									</ul>
+
+								</div>
+
+							</li>
+
+
+				        </ul>
+
+				    </div>
+				    <!-- /.navbar-collapse -->
+				</div>
+				  <!-- /.container-fluid -->
+			</nav>
+
+			
+        </header>
+
+        <div class="row">
+
+		    <div class="col-md-2">
+
+		        <div id="menu">
+
+		        	<div class="left_side">
+
+				        <ul class="nav nav-pills nav-stacked">
+
+	                        <li role="presentation"><a href="#" class="user-name"> 
+					        <img src="profile/tanish.jpg">&nbsp;&nbsp;&nbsp;Tanish Kalra</a></li>
+						    <li role="presentation"><a href="#">
+						    <img src="logo/news.jpg" height="25px" width="25px">&nbsp;&nbsp;&nbsp;News Feed&nbsp;&nbsp;&nbsp;<span class="badge left_badge">8</span></a></li>
+	                        <li role="presentation"><a href="#">
+						    <img src="logo/mess.jpg" height="25px">&nbsp;&nbsp;&nbsp;Messenger</a></li>
+						    <p class="list-heading">Shortcuts</p>
+						    <li role="presentation"><a href="#">
+						    <img src="logo/8 ball pool.png">&nbsp;&nbsp;&nbsp;8 ball pool</a></li>
+						    <li role="presentation"><a href="#">
+						    <img src="logo/coc.png" height="25px">&nbsp;&nbsp;&nbsp;COC&nbsp;&nbsp;&nbsp;</a></li>
+	                        <p class="list-heading">Explore</p>
+						    <li role="presentation"><a href="#">
+						    <img src="logo/event.jpg" height="25px">&nbsp;&nbsp;&nbsp;Events&nbsp;&nbsp;&nbsp;<span class="badge left_badge">5</span></a></li>
+						    <li role="presentation"><a href="#">
+						    <img src="logo/page.jpg" height="25px">&nbsp;&nbsp;&nbsp;Pages&nbsp;&nbsp;&nbsp;<span class="badge left_badge">1</span></a></li>
+						    <li role="presentation"><a href="#">
+	                        <img src="logo/group.png" height="25px">&nbsp;&nbsp;&nbsp;Groups&nbsp;&nbsp;&nbsp;</a></li>
+
+			            </ul>
+
+		        	</div>
+
+		        </div><!--menu ends here-->
+
+		    </div> <!--col-md-2 ends here-->
+
+		       
+		        <div class="col-md-5">
+
+		        	<div id="main">
+
+	                 	<div class="panel panel-default">
+
+		                    <div class="panel-heading">
+
+		                        <h3 class="panel-title">
+
+		                       		<a href="#" class="white-text">
+
+		                                <span class="glyphicon glyphicon-pencil pen" aria-hidden="true"></span>
+
+		                            </a>
+		                            	Create a Post | 
+		                            	<span class="glyphicon glyphicon-film pen" aria-hidden="true">
+
+		                                </span> .Photo/Video Album
+		                        </h3>
+
+		                    </div>
+
+		                    <div class="panel-body form-group">
+
+		                    	<label for="exampleTextarea"></label>
+
+		                        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="What's on your mind?"></textarea>
+
+								<div id="upload">
+
+			                        <div class="panel-footer btn-group-justified" role="group">
+			                          
+										<div id="activity">
+
+											<a href="#">
+												<span>
+
+													<span class="glyphicon glyphicon-film" aria-hidden="true">
+
+				                           			</span>
+
+				                           			<button type="button" class="btn btn-default btn1" id="feel">Photo/Video</button>
+
+												</span>
+				                           	</a> 
+
+				                           	<a href="#"> 
+
+				                           		<span>
+
+				                           			<span class="glyphicon glyphicon-star" aria-hidden="true">
+				                                
+				                            		</span>
+
+				                            		<button type="button" class="btn btn-default btn1" id="feel">Feeling/Activity</button>
+
+				                            	</span>
+
+				                            </a>
+
+										</div>
+
+			                        </div>
+
+							    </div>
+
+							</div>
+						<!-- dash buton-->
+			                <div id="dash-button">
+
+			                    <div id="dash-on">
+
+						 			<p><a class="button2" href="#popup2">More Options</a></p>
+						    
+								</div>
+
+								<div id="popup2" class="overlay1">
+
+						   			<div class="Chat1">
+
+						        	  	<a class="close1" href="#">&times;</a>
+
+						       			<div class="content1">
+
+			       							<ul id="thoughts">
+				        						<li><a href="#">Add Emotions</a></li>
+				        						<li><a href="#">Check in</a></li>
+			        						</ul>
+
+						        		</div>
+
+						    		</div>
+
+								</div>
+			                            	
+			                </div>
+			                <!--dash button end-->
+							<div class="panel-heading">
+
+	                        	<h3 class="panel-title">
+
+	                        		<a href="#"><img src="profile/akash.jpg" height="25px"><a href="#">Akash Chaudhary</a><small id="info">Posted a story</small><br><small id="info_time">July 10 at 12:33m.<span class="glyphicon glyphicon-globe" aria-hidden="true"></span></small>
+	                        
+	                        	</h3>
+	                     
+	                        </div>
+
+	                        <div class="panel-body">
+
+	                      		<div>
+
+	                      			<h3 class="text-post"> This had been the motto of the armed forces of India and they followed it through life and death. And a recent one during the rescue operations of Uttarakhand floods , by Air Chief Marshal N.A.K. Browne
+	                       			</h3>
+
+	                       		</div>
+
+	                        	<div> 
+
+	                        		<span>
+
+	                        			<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">
+
+	                            		</span><a href="#">Like</a>&nbsp;&nbsp;&nbsp;
+
+	                            	</span>
+
+	                            	<span>
+
+	                            		<span class="glyphicon glyphicon-comment" aria-hidden="true">
+	                                
+	                            		</span><a href="#">Comment</a>&nbsp;&nbsp;&nbsp;
+
+	                            	</span>
+
+	                            	<span>
+
+	                            		<span class="glyphicon glyphicon-share-alt" aria-hidden="true">
+	                                
+	                            		</span><a href="#">Share</a>
+
+	                            	</span>
+
+	                        	</div>
+
+	                     	</div>
+
+	                     	<div class="panel-footer">
+
+	                        	<p class="comment"><img src="profile/lavi.jpg" height="25px"> 
+
+	                        		<span>
+
+	                        			<a href="#">Lavish Makkar </a>
+
+	                        		</span> Jai Hind
+
+	                         	</p>
+
+	                       		<div class="com">
+	                        		<small>
+
+	                        			<span> 
+
+	                        				<a href="#">Like </a>
+
+	                        				</span> &nbsp;&nbsp;
+
+	                        				<span> <a href="#">Comment </a></span>
+
+	                        		</small>
+	                        
+	                      		</div>
+
+	                      	</div>
+
+	                     	<div class="panel-footer">
+
+	                        	<p class="comment"><img src="profile/tanish.jpg"> <span><a href="#">Tanish Kalra </a></span> Jai Hind </p>
+
+	                        	<div class="com"><small> <span> <a href="#">Like </a></span>&nbsp;&nbsp;
+
+	                         		<span> <a href="#">Comment </a></span></small>
+
+	                        		<input style="width: 100%;margin-top: 15px;" placeholder="Write a comment..."> 
+	                        
+	                      		</div>
+
+	                     	</div>
+
+	               		</div>
+	               		<!--header default for first post ends here -->
+	                    <div class="panel panel-default">
+
+	                        <div class="panel-heading">
+
+		                        <h3 class="panel-title">
+
+			                        <img src="profile/tanish.jpg" class="image1"><a href="#">Tanish Kalra</a><small id="info">Posted a story</small><br><small id="info_time">July 11 at 2:00am.<span class="glyphicon glyphicon-globe" aria-hidden="true"></span></small>
+			                     </h3>
+
+	                        </div>
+
+	                        <div class="panel-body">
+
+		                        <div>
+
+		                            <blockquote>
+
+			                          <p>"Things work out best for those who make the best of how things work out."</p>
+
+			                          <footer>
+			                          	John Wooden
+			                          </footer>
+
+			                        </blockquote>
+
+		                        </div>
+
+		                        <div> 
+		                       		<span>
+		                       		<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">
+		                           </span><a href="#">Like</a>&nbsp;&nbsp;&nbsp;
+		                           </span>
+		                            <span><span class="glyphicon glyphicon-comment" aria-hidden="true">
+		                                
+		                            </span><a href="#">Comment</a>&nbsp;&nbsp;&nbsp;
+		                            </span>
+		                            <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true">
+		                                
+		                            </span><a href="#">Share</a></span>
+	                            </div>
+
+	                        </div>
+
+	                        <div class="panel-footer">
+
+		                        <p class="comment"><img src="profile/rahul.jpg" height="35px"> <span><a href="#">Rahul Bhardwaj </a></span> Exactly </p>
+
+		                        <div class="com"><small> <span> <a href="#">Like&nbsp;&nbsp; </a></span> 
+		                        	<span> <a href="#">Comment </a></span></small>
+
+		                          	<input style="width: 100%;margin-top: 15px;" placeholder="Write a comment..."> 
+		                        
+		                        </div>
+	                      
+	                        </div>
+
+						</div>
+
+						<!--panel default for second post ends here-->
+
+						<div class="panel panel-default">
+
+	                      	<div class="panel-heading">
+
+		                        <h3 class="panel-title">
+
+		                        	<img src="profile/bharat.jpg" height="25px"><a href="#">Bharat Soni</a><small id="info">Uploaded a video</small><br><small id="info_time">July 5 at 12:43am.<span class="glyphicon glyphicon-globe" aria-hidden="true"></span></small>
+		                        </h3>
+
+	                        </div>
+
+	                        <div class="panel-body">
+
+		                        <div class="image-post">
+
+		                            <div class="embed-responsive embed-responsive-4by3">
+
+		                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zXtsGAkyeIo">
+		                                      
+		                                </iframe>
+
+		                            </div>
+
+		                           	<div> 
+
+			                           	<span>
+			                           		<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true">
+				                            </span><a href="#">Like</a>&nbsp;&nbsp;&nbsp;
+				                        </span>
+				                        <span>
+			                          		<span class="glyphicon glyphicon-comment" aria-hidden="true">
+			                            	</span><a href="#">Comment</a>&nbsp;&nbsp;&nbsp;
+				                        </span>
+				                        <span>
+			                          		<span class="glyphicon glyphicon-share-alt" aria-hidden="true">
+		                              		</span><a href="#">Share</a>
+		                           		</span>
+
+		                        	</div>
+
+		                        </div>
+
+		                        <div class="panel-footer">
+
+			                    	<p class="comment"><img src="profile/tanish.jpg"> <span><a href="#">Tanish Kalra </a></span> Nic Music </p>
+
+			                      	<div class="com"><small> <span> <a href="#">Like</a></span> &nbsp;&nbsp;
+										<span> <a href="#">Comment </a></span></small>
+			                        </div>
+		                      
+		                        </div>
+
+		                        <div class="panel-footer">
+
+		                        	<p class="comment"><img src="profile/kunal.jpg" height="25px"> <span><a href="#">Kunal Verma </a></span> big fan</p>
+		                        	<div class="com"><small> <span> <a href="#">Like </a></span>&nbsp;&nbsp; 
+		                        		<span> <a href="#">Comment </a></span></small>
+
+		                        		<input style="width: 100%;margin-top: 15px;" placeholder="Write a comment..."> 
+		                        
+		                      		</div>
+		                        
+		                      	</div>
+	                    	</div>
+	                                     	
+	                </div>
+
+	            </div>
+
+			</div><!--col md-5 end-->
+
+		    <div class="col-md-2">
+
+		        <div class="tab">
+
+			        <ul class="nav nav-tabs" role="tablist">
+
+			         	<li role="presentation" class="active"><a href="#top" aria-controls="top" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-fire" aria-hidden="true">
+			            </span>    </a></li>
+			            <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-home" aria-hidden="true">
+			            </span>        </a></li>
+			            <li role="presentation"><a href="#music" aria-controls="music" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-headphones" aria-hidden="true">
+			            </span>     </a></li>
+			            <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-knight" aria-hidden="true">
+			            </span>     </a></li>
+
+			                   
+					</ul>
+						<!-- Tab Content -->
+	                	<div class="tab-content">
+
+	                    	<div role="tabpanel" class="tab-pane active" id="top">
+
+		                      	<ul>
+		                        	<li><a href="#">Anantnag</a><h6>7 Amarnath yatra pilgrims...-msn</h6></li>
+
+			                        <li><a href="#">Narendra Modi</a><h6>Congratulations to Shri Ram Nath Kovind ji on taking 		oath as the President of India...-hindustantimes</h6></li>
+
+			                        <li><a href="#">Lionel Messi</a><h6>LIONEL MESSI is reportedly unimpressed by Ernesto 			Valverde's attempts to keep Neymar happy...-bbcsports</h6></li>
+
+			                        <li><a href="#">Dunkirk</a><h6>If you want to experience an epic war drama Nolan style, go 		for Dunkirk</h6></li>
+
+			                        <li><a href="#"> IIT</a><h6>Supreme court vacates...-msn</h6></li>
+
+			                        <li><a href="#">Donald Trump Jr</a><h6>Trump son push back on...-hindustantimes</h6></li>
+
+			                        <li><a href="#">Unesco</a><h6>UNICEF is fully committed to working with the Government of 		India to ensure that each child born in this country gets the best start in 				life...-hindustantimes</h6></li>
+		                      	</ul>
+
+	                    	</div>
+
+	                    	<div role="tabpanel" class="tab-pane" id="politics">
+
+		                      	<ul>
+			                        <li><a href="#"> IIT</a><h6>Supreme court vacates...-msn</h6></li>
+
+			                        <li><a href="#">Narendra Modi</a><h6>There are a lot of problems which our country faces but we also have 1.25 billion people to solve these problems.. ...-hindustantimes</h6></li>
+
+			                        <li><a href="#">Donald Trump Jr</a><h6>Trump son push back on...-hindustantimes</h6></li>
+
+			                        <li><a href="#">Unesco</a><h6>UNICEF is fully committed to working with the Government of  India to ensure that each child born in this country gets the best start in 				life...-hindustantimes</h6></li>
+			                    </ul>
+
+	                    	</div>
+
+		                    <div role="tabpanel" class="tab-pane" id="music">
+		                      
+		                      	<ul>
+		                        	<li><a href="#"></a><h6>If you want to experience an epic war drama Nolan style, go for Dunkirk</h6></li>
+		                         	<li><a href="#">See you again</a><h6>Chralie Puth's song see you again reaches the top 5 most viwed...-hindustantimes</h6></li>
+		                      	</ul>
+
+		                    </div>
+
+		                    <div role="tabpanel" class="tab-pane" id="sports">
+		                      
+		                      	<ul>
+		                        	<li><a href="#">Gautam Gambhir</a><h6>Proud of Indian Women Crickect...-hindustantimes</h6></li>
+		                      	</ul>
+
+		                    </div>
+
+	                    </div><!--tab content ends here-->
+
+				</div>
+
+			</div><!-- col-md-2 second ends-->
+	<!-- chat room-->
+	      	<div class="hidden-xs hidden-sm col-md-3">
+
+				<div id="wrapper">
+
+					<p><a class="button" href="#popup"><h5 align="center">Chat Room</h5></a></p>
+					    
+				</div>
+
+				<div id="popup" class="overlay">
+
+				    <div class="Chat">
+
+				        <h2>Online Friends</h2>
+
+				        <a class="close" href="#">&times;</a>
+
+				        <div class="content">
+
+					        <ul id="online_friends">
+						        <li>Akash Chaudhary</li>
+						        <li>Kunal Verma</li>
+						        <li>Lavish Makkar</li>
+						        <li>Bharat Soni</li>
+
+					        </ul>
+
+				        </div>
+
+				    </div>
+
+				</div>
+
+				<div>
+					
+					<small><u>Trending Games Here</u></small>
+                    
+                    <div><br>
+						<img src="games/candy.png">
+						<img src="games/coc.png">
+
+					</div><br>
+                    
+                    <small><u>Trending Apps Here(Lstest ones)</u></small>
+
+                    <div><br>
+
+                    	<img src="apps/dr..png" >
+                    	<img src="apps/whats.jpg" height="63px;">
+                    	<img src="apps/insta.jpg"  height="63px" width="60px" >
+
+                    </div>
+
+				</div>
+
+	    	</div><!--col-md-3 ends  here-->
+
+		</div><!--row ends here-->
+
+      	<footer id="footer">
+
+      		<div class="lang">
+
+                <p><h5><a href="#">.English(US)-&nbsp;</a><a href="#">.Hind-&nbsp;</a><a href="#">.Marathi-&nbsp;</a><a href="#">.Gujrati&nbsp;</a></h5></p>
+
+        	</div>
+
+        </footer>
+
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+  
+</html>
